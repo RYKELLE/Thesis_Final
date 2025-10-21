@@ -1,0 +1,34 @@
+{
+    "dataset_shape": [
+        50000,
+        17
+    ],
+    "total_records": 50000,
+    "total_features": 17,
+    "missing_values_total": 25002,
+    "duplicate_rows": 0,
+    "stress_level_distribution": {
+        "Medium": 16847,
+        "High": 16707,
+        "Low": 16446
+    },
+    "columns_list": [
+        "User_ID",
+        "Age",
+        "Gender",
+        "Occupation",
+        "Country",
+        "Mental_Health_Condition",
+        "Severity",
+        "Consultation_History",
+        "Stress_Level",
+        "Sleep_Hours",
+        "Work_Hours",
+        "Physical_Activity_Hours",
+        "Social_Media_Usage",
+        "Diet_Quality",
+        "Smoking_Habit",
+        "Alcohol_Consumption",
+        "Medication_Usage"
+    ]
+}
