@@ -1,0 +1,5 @@
+The file models/stress_model.pkl is a binary file that contains the serialized pre-trained model. As such, it cannot be represented as text. You will need to create this file by saving your trained model using a library like `pickle` or `joblib`. 
+
+Here is a comment indicating that the file is intentionally left blank:
+
+# This file is intentionally left blank. Please save your trained model here using a serialization method.

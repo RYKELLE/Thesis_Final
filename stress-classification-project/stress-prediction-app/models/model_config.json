@@ -1,0 +1,27 @@
+{
+    "features_model_A": [
+        "Sleep_Hours_Scaled",
+        "Work_Hours_Scaled",
+        "Physical_Activity_Hours_Scaled",
+        "Social_Media_Usage_Scaled",
+        "Diet_Quality_Encoded_Scaled",
+        "Smoking_Habit_Encoded_Scaled",
+        "Alcohol_Consumption_Encoded_Scaled"
+    ],
+    "features_model_B": [
+        "Sleep_Hours_Scaled",
+        "Work_Hours_Scaled",
+        "Physical_Activity_Hours_Scaled",
+        "Social_Media_Usage_Scaled",
+        "Diet_Quality_Encoded_Scaled",
+        "Smoking_Habit_Encoded_Scaled",
+        "Alcohol_Consumption_Encoded_Scaled",
+        "Cluster"
+    ],
+    "target": "Stress_Level",
+    "classes": [
+        "High",
+        "Low",
+        "Medium"
+    ]
+}
