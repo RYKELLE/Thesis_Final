@@ -40,8 +40,17 @@ stress-prediction-app
 ## Usage Guidelines
 
 - Open the application in your web browser.
-- Input the required data in the provided fields.
-- Click on the "Predict" button to receive a stress prediction based on your input.
+- Provide lifestyle information using the friendly form. The following factors are accepted:
+  - Sleep (hours per day)
+  - Work (hours per week)
+  - Physical activity (hours per week)
+  - Social media usage (hours per day)
+  - Diet quality (Healthy / Average / Unhealthy)
+  - Smoking habit (Non‑Smoker / Occasional / Regular / Heavy)
+  - Alcohol consumption (Non‑Drinker / Social / Regular / Heavy)
+- Click the **Assign Cluster** button. Inputs are automatically encoded and normalized behind the scenes.
+- On startup the app attempts to copy `data/processed/cluster_centers.csv` into the `stress-prediction-app` folder and will use that local copy for clustering.  This avoids path issues when Streamlit runs with a relative `__file__`.  Ensure the original file exists at the project root so the copy can be made. If copying fails or the file is missing, an error message will appear and clustering will be skipped.
+- The model will assign a cluster (or stress level depending on the trained model) and display the result.
 
 ## Overview of Functionality
 

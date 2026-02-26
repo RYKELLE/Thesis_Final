@@ -28,7 +28,7 @@ class StressPredictor:
             input_data (dict): Dictionary with feature keys
             
         Returns:
-            str: Stress level prediction (Low, Medium, High)
+            str: Model output (cluster label or stress level depending on the trained model)
         """
         try:
             # Create DataFrame from input
