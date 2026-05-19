@@ -1,5 +1,5 @@
 import streamlit as st
-from model.predictor import Predictor
+from model.predictor import StressPredictor as Predictor
 from utils.data_processing import prepare_input
 
 def main():
