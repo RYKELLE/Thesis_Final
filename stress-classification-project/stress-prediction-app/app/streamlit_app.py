@@ -181,6 +181,16 @@ STRESS_DESCRIPTIONS = {
 # Requirement 2: Cluster labels and profile descriptions
 CLUSTER_PROFILES = {
     0: {
+        "label": "Balanced Lifestyle",
+        "description": (
+            "People in this cluster carry a lower overall lifestyle load. They tend to sleep more, "
+            "work fewer hours, exercise more regularly, and use social media less. Substance use "
+            "(smoking and alcohol) is also lower on average. This profile is associated with "
+            "predominantly Low to Medium stress levels, suggesting that moderate, balanced habits "
+            "act as a buffer against stress."
+        ),
+    },
+    1: {
         "label": "High-Load Lifestyle",
         "description": (
             "People in this cluster carry a higher overall lifestyle load. They tend to work "
@@ -190,16 +200,6 @@ CLUSTER_PROFILES = {
             "report elevated stress levels. Notably, diet quality in this group tends to be higher, "
             "suggesting that busier, higher-pressure lifestyles do not necessarily correspond to "
             "poorer eating habits."
-        ),
-    },
-    1: {
-        "label": "Balanced Lifestyle",
-        "description": (
-            "People in this cluster carry a lower overall lifestyle load. They tend to sleep more, "
-            "work fewer hours, exercise more regularly, and use social media less. Substance use "
-            "(smoking and alcohol) is also lower on average. This profile is associated with "
-            "predominantly Low to Medium stress levels, suggesting that moderate, balanced habits "
-            "act as a buffer against stress."
         ),
     },
 }
